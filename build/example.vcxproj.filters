@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\src\core\collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\src\core\numberf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\src\core\tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\src\scene\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\src\scene\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isaac\OneDrive\Documentos\cpp\tileWorld\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FB811DE3-2CD0-3131-B996-4FE234AD4E11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
