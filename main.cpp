@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     //Guess there's a better way to do this
-    string path = (string)GetApplicationDirectory() + "/../../assets";
+    string path = (string)GetApplicationDirectory() + "/../assets";
     ChangeDirectory(path.c_str());
     SetTargetFPS(60);
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Tile World");
@@ -47,7 +47,7 @@ int main()
                       player->collider.x,
                       player->collider.y,
                       GREEN);
-        for (int j = 0; j < 25; j++)
+        for (int j = 0; j < 100; j++)
             for (int i = 0; i < 250; i++)
             {
                 DrawTexturePro(

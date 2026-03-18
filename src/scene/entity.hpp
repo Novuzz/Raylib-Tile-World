@@ -10,6 +10,7 @@ class Entity : public Object
 private:
     /* data */
     float gravity = 0;
+    int speed = 10;
 
 public:
     Vector2 collider = {20, 60};

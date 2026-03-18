@@ -21,7 +21,16 @@ void Entity::update()
     if (IsMouseButtonPressed(MOUSE_BUTTON_RIGHT) &&
         map[(int)mapPos.y][(int)mapPos.x] == 0 &&
         !CheckCollisionPointRec(position, r))
-        map[(int)mapPos.y][(int)mapPos.x] = GetRandomValue(1, 3);
+        {
+            map[(int)mapPos.y][(int)mapPos.x] = 2;
+            if(map[(int)mapPos.y + 1][(int)mapPos.x] == 2)
+            map[(int)mapPos.y + 1][(int)mapPos.x] = 1;
+            if(map[(int)mapPos.y - 1][(int)mapPos.x] != 0)
+            map[(int)mapPos.y ][(int)mapPos.x] = 1;
+
+
+
+        }
 }
 Vector2 defVec = {0};
 void Entity::moveAndSlide(Vector2 velocity, int iterations)
@@ -30,7 +39,7 @@ void Entity::moveAndSlide(Vector2 velocity, int iterations)
     {
 
         velocity = Vector2{(float)(IsKeyDown(KEY_D) - IsKeyDown(KEY_A)), gravity};
-        velocity.x *= 20;
+        velocity.x *= speed;
     }
 
     if (IsKeyPressed(KEY_SPACE))

@@ -5,7 +5,7 @@
 #include "raymath.h"
 #include "config.hpp"
 
-extern int map[25][250];
+extern int map[100][250];
 
 Vector2 globalToMap(Vector2 pos);
 
