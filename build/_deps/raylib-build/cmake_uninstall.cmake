@@ -1,14 +1,14 @@
-if(NOT EXISTS "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/install_manifest.txt")
+if(NOT EXISTS "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/install_manifest.txt")
 endif()
 
-file(READ "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/install_manifest.txt" files)
+file(READ "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
   if(IS_SYMLINK "$ENV{DESTDIR}${file}" OR EXISTS "$ENV{DESTDIR}${file}")
     exec_program(
-      "C:/Program Files/CMake/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+      "/usr/bin/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
       OUTPUT_VARIABLE rm_out
       RETURN_VALUE rm_retval
       )

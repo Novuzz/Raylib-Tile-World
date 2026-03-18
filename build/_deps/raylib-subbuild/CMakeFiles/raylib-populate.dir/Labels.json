@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1e475ecab5cc606c65ce4443981702d4/raylib-populate.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/300e16d6089c10e942d9d3f0202f9d8b/raylib-populate-complete.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-build.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-configure.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-download.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-install.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-mkdir.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-patch.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-test.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule"
 		},
 		{
-			"file" : "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/CMakeFiles/1b44b0e42413c004e5db56a934ee9429/raylib-populate-update.rule"
+			"file" : "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule"
 		}
 	],
 	"target" : 

@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=url
-command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/verify-raylib-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake
-source_dir=C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-src
-work_dir=C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps
+command=/usr/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake;COMMAND;/usr/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/verify-raylib-populate.cmake;COMMAND;/usr/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake
+source_dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-src
+work_dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps
 url(s)=https://github.com/raysan5/raylib/archive/refs/tags/5.5.tar.gz
 hash=
       no_extract=

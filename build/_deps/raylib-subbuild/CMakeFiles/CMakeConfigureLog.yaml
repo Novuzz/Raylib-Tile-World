@@ -2,10 +2,76 @@
 ---
 events:
   -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/lib/ccache/bin/"
+      - "/home/char/.cargo/bin/"
+      - "/home/char/.local/bin/"
+      - "/home/char/.local/share/swiftly/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/opt/android-sdk/tools/"
+      - "/opt/android-sdk/tools/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/usr/lib/ccache/bin/uname"
+      - "/home/char/.cargo/bin/uname"
+      - "/home/char/.local/bin/uname"
+      - "/home/char/.local/share/swiftly/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/lib/ccache/bin/"
+        - "/home/char/.cargo/bin/"
+        - "/home/char/.local/bin/"
+        - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/char/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/char/.local/share/swiftly/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/opt/android-sdk/tools"
+        - "/opt/android-sdk/tools/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:16 (project)"
     message: |
-      The system is: Windows - 10.0.26200 - AMD64
+      The system is: Linux - 6.18.17-1-cachyos-lts - x86_64
 ...

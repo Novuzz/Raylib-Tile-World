@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/isaac/OneDrive/Documentos/cpp/tileWorld/build/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-subbuild/raylib-populate-prefix/src/5.5.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/_deps/raylib-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
