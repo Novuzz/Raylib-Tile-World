@@ -13,7 +13,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/core/numberf.cpp" "CMakeFiles/example.dir/src/core/numberf.cpp.o" "gcc" "CMakeFiles/example.dir/src/core/numberf.cpp.o.d"
   "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/core/tile.cpp" "CMakeFiles/example.dir/src/core/tile.cpp.o" "gcc" "CMakeFiles/example.dir/src/core/tile.cpp.o.d"
   "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/entity.cpp" "CMakeFiles/example.dir/src/scene/entity.cpp.o" "gcc" "CMakeFiles/example.dir/src/scene/entity.cpp.o.d"
+  "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/main_camera.cpp" "CMakeFiles/example.dir/src/scene/main_camera.cpp.o" "gcc" "CMakeFiles/example.dir/src/scene/main_camera.cpp.o.d"
   "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/object.cpp" "CMakeFiles/example.dir/src/scene/object.cpp.o" "gcc" "CMakeFiles/example.dir/src/scene/object.cpp.o.d"
+  "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/tree.cpp" "CMakeFiles/example.dir/src/scene/tree.cpp.o" "gcc" "CMakeFiles/example.dir/src/scene/tree.cpp.o.d"
+  "/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/utils/global.cpp" "CMakeFiles/example.dir/src/utils/global.cpp.o" "gcc" "CMakeFiles/example.dir/src/utils/global.cpp.o.d"
   "" "example" "gcc" "CMakeFiles/example.dir/link.d"
   )
 

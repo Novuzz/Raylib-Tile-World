@@ -142,10 +142,24 @@ CMakeFiles/example.dir/src/scene/entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/scene/entity.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/entity.cpp -o CMakeFiles/example.dir/src/scene/entity.cpp.s
 
+CMakeFiles/example.dir/src/scene/main_camera.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/scene/main_camera.cpp.o: /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/main_camera.cpp
+CMakeFiles/example.dir/src/scene/main_camera.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/example.dir/src/scene/main_camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/scene/main_camera.cpp.o -MF CMakeFiles/example.dir/src/scene/main_camera.cpp.o.d -o CMakeFiles/example.dir/src/scene/main_camera.cpp.o -c /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/main_camera.cpp
+
+CMakeFiles/example.dir/src/scene/main_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/scene/main_camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/main_camera.cpp > CMakeFiles/example.dir/src/scene/main_camera.cpp.i
+
+CMakeFiles/example.dir/src/scene/main_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/scene/main_camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/main_camera.cpp -o CMakeFiles/example.dir/src/scene/main_camera.cpp.s
+
 CMakeFiles/example.dir/src/scene/object.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/src/scene/object.cpp.o: /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/object.cpp
 CMakeFiles/example.dir/src/scene/object.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/example.dir/src/scene/object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/example.dir/src/scene/object.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/scene/object.cpp.o -MF CMakeFiles/example.dir/src/scene/object.cpp.o.d -o CMakeFiles/example.dir/src/scene/object.cpp.o -c /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/object.cpp
 
 CMakeFiles/example.dir/src/scene/object.cpp.i: cmake_force
@@ -156,6 +170,34 @@ CMakeFiles/example.dir/src/scene/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/scene/object.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/object.cpp -o CMakeFiles/example.dir/src/scene/object.cpp.s
 
+CMakeFiles/example.dir/src/scene/tree.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/scene/tree.cpp.o: /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/tree.cpp
+CMakeFiles/example.dir/src/scene/tree.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/example.dir/src/scene/tree.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/scene/tree.cpp.o -MF CMakeFiles/example.dir/src/scene/tree.cpp.o.d -o CMakeFiles/example.dir/src/scene/tree.cpp.o -c /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/tree.cpp
+
+CMakeFiles/example.dir/src/scene/tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/scene/tree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/tree.cpp > CMakeFiles/example.dir/src/scene/tree.cpp.i
+
+CMakeFiles/example.dir/src/scene/tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/scene/tree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/scene/tree.cpp -o CMakeFiles/example.dir/src/scene/tree.cpp.s
+
+CMakeFiles/example.dir/src/utils/global.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/src/utils/global.cpp.o: /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/utils/global.cpp
+CMakeFiles/example.dir/src/utils/global.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/example.dir/src/utils/global.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/src/utils/global.cpp.o -MF CMakeFiles/example.dir/src/utils/global.cpp.o.d -o CMakeFiles/example.dir/src/utils/global.cpp.o -c /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/utils/global.cpp
+
+CMakeFiles/example.dir/src/utils/global.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/src/utils/global.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/utils/global.cpp > CMakeFiles/example.dir/src/utils/global.cpp.i
+
+CMakeFiles/example.dir/src/utils/global.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/src/utils/global.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/char/Documents/Programming/CPPProject/Raylib-Tile-World/src/utils/global.cpp -o CMakeFiles/example.dir/src/utils/global.cpp.s
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/main.cpp.o" \
@@ -163,7 +205,10 @@ example_OBJECTS = \
 "CMakeFiles/example.dir/src/core/numberf.cpp.o" \
 "CMakeFiles/example.dir/src/core/tile.cpp.o" \
 "CMakeFiles/example.dir/src/scene/entity.cpp.o" \
-"CMakeFiles/example.dir/src/scene/object.cpp.o"
+"CMakeFiles/example.dir/src/scene/main_camera.cpp.o" \
+"CMakeFiles/example.dir/src/scene/object.cpp.o" \
+"CMakeFiles/example.dir/src/scene/tree.cpp.o" \
+"CMakeFiles/example.dir/src/utils/global.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -173,17 +218,15 @@ example: CMakeFiles/example.dir/src/core/collision.cpp.o
 example: CMakeFiles/example.dir/src/core/numberf.cpp.o
 example: CMakeFiles/example.dir/src/core/tile.cpp.o
 example: CMakeFiles/example.dir/src/scene/entity.cpp.o
+example: CMakeFiles/example.dir/src/scene/main_camera.cpp.o
 example: CMakeFiles/example.dir/src/scene/object.cpp.o
+example: CMakeFiles/example.dir/src/scene/tree.cpp.o
+example: CMakeFiles/example.dir/src/utils/global.cpp.o
 example: CMakeFiles/example.dir/build.make
 example: CMakeFiles/example.dir/compiler_depend.ts
-example: _deps/raylib-build/raylib/libraylib.a
-example: /usr/lib/libOpenGL.so
-example: /usr/lib/libGLX.so
-example: /usr/lib/libGLU.so
-example: /usr/lib/librt.a
-example: /usr/lib/libm.so
+example: /usr/lib/libraylib.so
 example: CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/char/Documents/Programming/CPPProject/Raylib-Tile-World/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
