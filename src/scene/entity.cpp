@@ -32,6 +32,14 @@ void Entity::update()
 
         }
 }
+void Entity::draw()
+{
+    DrawRectangle(position.x - collider.x * 0.5f,
+                      position.y - collider.y * 0.5f,
+                      collider.x,
+                      collider.y,
+                      GREEN);
+}
 Vector2 defVec = {0};
 void Entity::moveAndSlide(Vector2 velocity, int iterations)
 {

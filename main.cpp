@@ -6,12 +6,14 @@
 #include "entity.hpp"
 #include "config.hpp"
 #include "string"
+#include "tree.hpp"
+#include "main_camera.hpp"
 
 using namespace std;
 
 int main()
 {
-    //Guess there's a better way to do this
+    // Guess there's a better way to do this
     string path = (string)GetApplicationDirectory() + "/../assets";
     ChangeDirectory(path.c_str());
     SetTargetFPS(60);
@@ -21,32 +23,23 @@ int main()
 
     float index = 2;
 
-    Camera2D camera = {0};
-    camera.rotation = 0.0f;
-    camera.zoom = 1.0f;
-    camera.offset = {(float)SCREEN_WIDTH * 0.5f, (float)SCREEN_HEIGHT * 0.5f};
-    Vector2 position = {0, 64};
-    float gravity = 0;
+
     loadMap();
-    Entity *player = new Entity();
+    MainCamera::init();
+    Entity * player = new Entity();
+    MainCamera::setTarget(player);
+    Tree::instantiate(player);
     while (!WindowShouldClose())
     {
+        Tree::iterate();
+        MainCamera::update();
 
 
-
-        Vector2 point = GetMousePosition() - Vector2{(float)SCREEN_WIDTH * 0.5f, (float)SCREEN_HEIGHT * 0.5f};
-        player->update();
-        camera.target = player->position;
-        
-        
         BeginDrawing();
-        BeginMode2D(camera);
-        ClearBackground(RAYWHITE);
-        DrawRectangle(player->position.x - player->collider.x * 0.5f,
-                      player->position.y - player->collider.y * 0.5f,
-                      player->collider.x,
-                      player->collider.y,
-                      GREEN);
+        BeginMode2D(MainCamera::getCamera());
+        Tree::iterateDraw();
+        ClearBackground({0, 155, 255});
+
         for (int j = 0; j < 100; j++)
             for (int i = 0; i < 250; i++)
             {
@@ -62,6 +55,5 @@ int main()
         EndMode2D();
         EndDrawing();
     }
-    delete player;
     UnloadTexture(texture);
 }

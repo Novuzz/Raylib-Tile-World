@@ -19,15 +19,16 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
     set(FETCHCONTENT_QUIET NO)
     FetchContent_MakeAvailable(raylib)
   endif()
-endif()
+endif() 
 
 # Our Project
 include_directories(${CMAKE_SOURCE_DIR}/src )
 include_directories(${CMAKE_SOURCE_DIR}/src/core)
 include_directories(${CMAKE_SOURCE_DIR}/src/scene)
+include_directories(${CMAKE_SOURCE_DIR}/src/utils)
 include_directories(${CMAKE_SOURCE_DIR})
 
-file(GLOB SRC "*.cpp" "src/*.cpp" "src/core/*.cpp" "src/scene/*.cpp")
+file(GLOB SRC "*.cpp" "src/*.cpp" "src/core/*.cpp" "src/scene/*.cpp" "src/utils/*.cpp")
 
 add_executable(${PROJECT_NAME} main.cpp ${SRC})
 #set(raylib_VERBOSE 1)

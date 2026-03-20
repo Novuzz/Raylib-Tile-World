@@ -8,7 +8,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/src/**",
                 "${workspaceFolder}/src/core/**",
-                "${workspaceFolder}/src/scene/**"
+                "${workspaceFolder}/src/scene/**",
+                "${workspaceFolder}/build/_deps/raylib-build/raylib/include",
+                "${workspaceFolder}/src/utils"
             ],
             "defines": [
                 "_DEBUG",

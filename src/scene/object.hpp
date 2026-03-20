@@ -1,15 +1,20 @@
 #pragma once
 
 #include "raylib.h"
+#include "global.hpp"
 
 class Object
 {
 private:
-    /* data */
+    int object_id;
+
 public:
     Vector2 position = {0, 0};
-    Object(/* args */);
-    ~Object();
-    virtual void update();
-};
 
+    Object();
+    ~Object();
+    int getObjectId();
+    void setObjectId(int value);
+    virtual void update();
+    virtual void draw();
+};

@@ -17,5 +17,6 @@ public:
     Entity();
     ~Entity();
     void update();
+    void draw();
     void moveAndSlide(Vector2 velocity = Vector2{0, 0}, int iterations = 4);
 };

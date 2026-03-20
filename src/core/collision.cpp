@@ -83,7 +83,7 @@ Vector2 Collision(Rectangle point, Vector2 vel, Vector2 *normal, Rectangle *coll
     {
         for (int i = m.x; i <= s.x; i++)
         {
-            if (map[j][i] != 0)
+            if (exception.find(map[j][i]) == exception.end())
             {
                 float n = 1;
                 Rectangle rect = {i * TILE_SIZE, j * TILE_SIZE, TILE_SIZE, TILE_SIZE};
@@ -98,7 +98,7 @@ Vector2 Collision(Rectangle point, Vector2 vel, Vector2 *normal, Rectangle *coll
 
                     *collider = rect;
                 }
-                if (RayCast(position, vel, rect, &n, &_normal) && n <= near && map[j + (int)_normal.y][i + (int)_normal.x] == 0)
+                if (RayCast(position, vel, rect, &n, &_normal) && n <= near && exception.find(map[j + (int)_normal.y][i + (int)_normal.x]) != exception.end() )
                 {
                     // std::cout << vel.x << " " << vel.y << "\n";
                     *normal = _normal;
